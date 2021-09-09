@@ -26,8 +26,7 @@ body {
   height: auto;
   position:absolute;
   opacity:0;
-  transition: opacity 0.2s ease-in-out
-
+  transition: all 0.5s ease-out;
 }
 
 .commandes{
@@ -102,4 +101,3 @@ body {
 .active{
   opacity:1 !important;
 }
-
