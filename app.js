@@ -3,9 +3,6 @@ const suivant = document.querySelector('.right');
 const precedent = document.querySelector('.left');
 const cercles = document.querySelectorAll('.cercle');
 let index = 0;
-let clicSuivant = false;
-let clicPrecedent = false;
-
 
 suivant.addEventListener('click', slideSuivante);
 
